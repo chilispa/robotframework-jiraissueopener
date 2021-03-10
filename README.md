@@ -39,7 +39,6 @@ Executed `.robot` file must expose mandatory variables such as:
 
 * ${JIRA_PROJECT}  Jira server api /issue/ url
 * ${JIRA_PROJECT_ID}  your project id. Retrievable from project settings. Example: *11805*
-* ${JIRA_ASSIGNEE}  assignee's username. Example: *agubellini*
 * ${JIRA_ISSUE_TYPE}  `issue_type`: can be found on your jira settings. ([How-to](https://confluence.atlassian.com/jirakb/finding-the-id-for-issue-types-646186508.html)) Example: *10100* 
 
 Example:
@@ -47,7 +46,6 @@ Example:
 ***Variables***
 ${JIRA_PROJECT}     https://jira.myserver.com/rest/api/2/issue/
 ${JIRA_PROJECT_ID}  11888
-${JIRA_ASSIGNEE}    agubellini
 ${JIRA_ISSUE_TYPE}  10100
 ```
 
